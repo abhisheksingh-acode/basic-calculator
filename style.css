@@ -1,0 +1,119 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background-image: linear-gradient(90deg, rgb(238, 128, 128) , rgb(116, 180, 223));
+}
+h1{
+   text-align: center;
+   margin: 10px auto;
+   width: fit-content;
+   padding: 5px;
+   font-weight: bold;
+   font-family: cursive;
+   border-bottom: 2px solid rgb(217, 226, 226);
+   color: white;
+}
+.container{
+   width: 300px;
+   height: auto;
+   box-shadow: 1px 2px 4px -2px rgb(179, 180, 180),
+               -1px 2px 4px -2px rgb(20, 22, 22);
+   margin: 0 auto;
+   box-sizing: content-box;
+   background: white;
+   border-radius: 10px;
+}
+.display{
+   width: 300px;
+   height: 100px;
+   box-sizing: border-box;
+   text-align: center;
+   line-height: 100px;
+   box-shadow: 0 1px 4px -3px rgb(83, 199, 60);
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   font-size: 40px;
+}
+.pushData{
+   color: rgb(24, 20, 20);
+   font-weight: lighter;
+}
+.btnArea{
+   width: 300px;
+   height: auto;
+   /* border: 2px solid lightblue; */
+   position: relative;
+}
+.upperRow{
+   width: 100%;
+   height: auto;
+   /* border: 1px solid grey; */
+   display: flex;
+   margin: 15px auto;
+   justify-content: space-evenly;
+}
+.upperRow button{
+   padding: 5px 10px;
+   font-weight: bold;
+   border-radius: 20px;
+   background: rgb(250, 249, 249);
+   color: rgb(71, 219, 175);
+   box-shadow: 0 2px 5px -4px black;
+}
+.bottomRow{
+   width: 100%;
+   height: auto;
+   display: flex;
+}
+.numbers{
+   width: 200px;
+   height: 100%;
+}
+.row{
+   width: 200px;
+   height:auto;
+   margin: 4px auto;
+   display: flex;
+   justify-content: space-evenly;
+}
+.row button{
+   width: 50px;
+   height: 50px;
+   padding: 5px;
+   margin: 5px;
+   font-weight: bold;
+   border-radius: 50%;
+   box-shadow: 1px 2px 5px -3px grey;
+}
+
+
+
+.operators{
+   width: 100%;
+   height: auto;
+}
+
+.col button{
+   width: 50px;
+   height: 50px;
+   padding: 5px;
+   margin: 10px auto;
+   display: block;
+   text-align: center;
+   font-weight: bold;
+   font-size: 24px;
+   border-radius: 50%;
+   background: rgb(255, 255, 255);
+   color: rgb(16, 58, 107);
+   box-shadow: 1px 2px 5px -2px rgb(150, 145, 145);
+   animation-name: btnHover;
+}
+button {
+   outline: none;
+   border: none;
+   cursor: pointer;
+}
